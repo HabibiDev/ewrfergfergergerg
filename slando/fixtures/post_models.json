@@ -1,0 +1,317 @@
+[
+  {
+    "model": "post.category",
+    "pk": 1,
+    "fields": {
+      "name": "Cars",
+      "parent": null,
+      "lft": 1,
+      "rght": 8,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 2,
+    "fields": {
+      "name": "BMW",
+      "parent": 1,
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 3,
+    "fields": {
+      "name": "Ford",
+      "parent": 1,
+      "lft": 6,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 4,
+    "fields": {
+      "name": "Ferrari",
+      "parent": 1,
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 5,
+    "fields": {
+      "name": "Electronics",
+      "parent": null,
+      "lft": 1,
+      "rght": 10,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 6,
+    "fields": {
+      "name": "Samsung",
+      "parent": 9,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 7,
+    "fields": {
+      "name": "Iphone",
+      "parent": 9,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 8,
+    "fields": {
+      "name": "Xiaomi",
+      "parent": 9,
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "post.category",
+    "pk": 9,
+    "fields": {
+      "name": "Mobile phone",
+      "parent": 5,
+      "lft": 2,
+      "rght": 9,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 4,
+    "fields": {
+      "image_file": "BMW/BMW X5/3nio5q6zs3gLTXKxNg-dEgs800.jpeg",
+      "post_image": 1,
+      "uploaded": "2019-03-27T18:26:27.889Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 5,
+    "fields": {
+      "image_file": "BMW/BMW X5/2019-bmw-x5-xdrive45e.jpg",
+      "post_image": 1,
+      "uploaded": "2019-03-27T18:26:34.935Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 6,
+    "fields": {
+      "image_file": "Ford/Ford Focus/5918163_105837672_medium.jpg",
+      "post_image": 2,
+      "uploaded": "2019-03-27T18:27:04.296Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 7,
+    "fields": {
+      "image_file": "Ford/Ford Focus/1200px-2018_Ford_Focus_ST-Line_EcoBoost_1.0.jpg",
+      "post_image": 2,
+      "uploaded": "2019-03-27T18:27:22.769Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 8,
+    "fields": {
+      "image_file": "Ferrari/Ferrari California/maxresdefault.jpg",
+      "post_image": 3,
+      "uploaded": "2019-03-27T18:28:26.046Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 9,
+    "fields": {
+      "image_file": "Ferrari/Ferrari California/IMG_1231-c_huc153d31a960fb4374da0f695c9d74632_669574_1024x640_iAGXZc2.JPG",
+      "post_image": 3,
+      "uploaded": "2019-03-27T18:28:36.716Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 10,
+    "fields": {
+      "image_file": "Iphone/Apple iPhone X 64Gb Silver/apple_iphone_x_64gb_space_gray_5.jpeg",
+      "post_image": 5,
+      "uploaded": "2019-03-27T18:29:19.013Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 11,
+    "fields": {
+      "image_file": "Iphone/Apple iPhone X 64Gb Silver/apple_iphone_x_64gb_space_gray_4.jpeg",
+      "post_image": 5,
+      "uploaded": "2019-03-27T18:29:29.882Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 12,
+    "fields": {
+      "image_file": "Iphone/Apple iPhone X 64Gb Silver/apple_iphone_x_64gb_mqac2_space_grey_4.jpg",
+      "post_image": 5,
+      "uploaded": "2019-03-27T18:29:40.553Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 13,
+    "fields": {
+      "image_file": "Xiaomi/Xiaomi Redmi 5/xiaomi-redmi-5-2-16-rom.jpg",
+      "post_image": 4,
+      "uploaded": "2019-03-27T18:29:52.498Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 16,
+    "fields": {
+      "image_file": "Samsung/Samsung Galaxy S10 Plus 128GB Black/image_product_key_visual_beyond_s10__product_image_black_181211_sm_g975_galaxys10__back_black_181210_rgb.jpg",
+      "post_image": 6,
+      "uploaded": "2019-03-27T19:46:41.531Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 17,
+    "fields": {
+      "image_file": "Samsung/Samsung Galaxy S10 Plus 128GB Black/image_product_key_visual_beyond_s10__product_image_black_181211_sm_g975_galaxys10__front_black_181210_rgb.jpg",
+      "post_image": 6,
+      "uploaded": "2019-03-27T19:47:02.668Z"
+    }
+  },
+  {
+    "model": "post.imagepost",
+    "pk": 18,
+    "fields": {
+      "image_file": "Samsung/Samsung Galaxy S10 Plus 128GB Black/image_product_key_visual_beyond_s10__product_image_black_181211_sm_g975_galaxys10_.jpg",
+      "post_image": 6,
+      "uploaded": "2019-03-27T19:47:11.114Z"
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 1,
+    "fields": {
+      "title": "BMW X5",
+      "author": 1,
+      "category": 2,
+      "content": "The BMW X5 is the embodiment of the X philosophy. Its powerful and compact build, the characteristic X design and the stunning driving dynamics make for a clear statement. Are you prepared?",
+      "price": 40000.0,
+      "contract_price": false,
+      "created": "2019-03-27T17:42:58.757Z",
+      "updated": "2019-03-27T17:44:06.028Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 2,
+    "fields": {
+      "title": "Ford Focus",
+      "author": 1,
+      "category": 3,
+      "content": "The Ford Focus is a compact car (C-segment in Europe) manufactured by the Ford Motor Company and created under Alex Trotman's Ford 2000 plan, which aimed to globalize model development and sell one compact vehicle worldwide. The original Focus was primarily designed by Ford of Europe's German and British teams.",
+      "price": 25000.0,
+      "contract_price": false,
+      "created": "2019-03-27T17:45:16.196Z",
+      "updated": "2019-03-27T17:45:16.196Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 3,
+    "fields": {
+      "title": "Ferrari California",
+      "author": 2,
+      "category": 4,
+      "content": "The Ferrari California (Type F149) is a grand touring sports car produced by the Italian automotive manufacturer Ferrari. It is a two-door 2+2 hard top convertible. When originally unveiled, the California was powered by a front-mid mounted, rear wheel drive, naturally aspirated 4.3-litre V8. In 2012 a lighter, more powerful variant, the California 30 was introduced. In 2014, Ferrari announced the second generation of the model, named California T powered by a new twin-turbo 3.9-litre V8",
+      "price": 130000.0,
+      "contract_price": true,
+      "created": "2019-03-27T17:56:12.649Z",
+      "updated": "2019-03-27T17:56:12.649Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 4,
+    "fields": {
+      "title": "Xiaomi Redmi 5",
+      "author": 3,
+      "category": 8,
+      "content": "Screen diagonal: 5.7 \";\r\n\r\nScreen resolution: 1440x720;\r\n\r\nCamera: 12 MP;\r\n\r\nNumber of cores: 8;\r\n\r\nRAM: 3 GB;\r\n\r\nInternal memory: 32 GB;",
+      "price": 200.0,
+      "contract_price": false,
+      "created": "2019-03-27T17:59:09.398Z",
+      "updated": "2019-03-27T17:59:09.398Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 5,
+    "fields": {
+      "title": "Apple iPhone X 64Gb Silver",
+      "author": 3,
+      "category": 7,
+      "content": "The entire front surface of the iPhone X is occupied by a 5.8-inch Super Retina HD display with HDR and True Tone support. The front and back panels are made of the most durable glass ever created for the iPhone, and the frame is made of surgical stainless steel. The iPhone X charges without wires. Protected from water and dust. And it is equipped with a dual 12 megapixel + 12 megapixel camera with dual optical image stabilization for great shots, even in low light. TrueDepth camera with a new portrait lighting function can take a selfie in the \"Portrait\" mode. Face ID technology allows you to unlock the iPhone X with one glance. It all works on the A11 Bionic, the most powerful and intelligent iPhone processor. And still iPhone X supports technologies of augmented reality in games and applications.",
+      "price": 1500.0,
+      "contract_price": false,
+      "created": "2019-03-27T18:01:09.240Z",
+      "updated": "2019-03-27T18:01:09.240Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "post.post",
+    "pk": 6,
+    "fields": {
+      "title": "Samsung Galaxy S10 Plus 128GB Black",
+      "author": 4,
+      "category": 6,
+      "content": "Rate the laconic design of the Samsung Galaxy S10 +. The perfectly smooth ceramic back panel is framed in a polished metal frame. Absolutely frameless display is protected by heavy-duty glass Gorilla Glass 6. The smartphone comfortably fits in your hand, providing convenient access to all controls. Highlight your personality by choosing one of the futuristic prismatic hull colors from the available palette.",
+      "price": 1300.0,
+      "contract_price": true,
+      "created": "2019-03-27T18:03:15.083Z",
+      "updated": "2019-03-27T18:03:15.083Z",
+      "is_active": true
+    }
+  }
+]
